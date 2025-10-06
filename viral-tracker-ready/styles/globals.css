@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body, #__next { height: 100%; }
+body { @apply bg-gray-900 text-white antialiased; }
+.card { @apply bg-gray-800 rounded-xl p-4 shadow-lg; }
+.header { @apply flex items-center justify-between max-w-6xl mx-auto py-6; }
